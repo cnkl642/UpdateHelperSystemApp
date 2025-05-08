@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@v3  # 上传构建产物
       with:
         name: updatehelper-apk
-        path: 'app/build/outputs/apk/debug/*.apk'  # 上传 APK 文件
+        path: 'app/build/outputs/apk/debug/updatehelper.apk'  # 上传 APK 文件
